@@ -1,0 +1,145 @@
+/********body*******/
+body {
+  font-family: "Karla", sans-serif!important;
+}
+
+/********info*******/
+.info {
+  background-color: #337ab7;
+  color: #ffffff;
+  padding: 80px 0;
+  margin: -18px 0;
+}
+
+.info-title {
+  padding-top: 10px;
+}
+
+/********portfolio styling********/
+
+.portfolio {
+  color: #337ab7;;
+}
+
+/********main navbar styling********/
+
+nav {
+  width: 100%;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+}
+
+nav li a {
+  display: block;
+  font-size: 1.7em;
+  padding: 10px;
+  border: 2.5px solid #337ab7;
+  color: #337ab7;
+  margin:15px 10px 15px 0;
+}
+
+
+/********img********/
+
+.img-avatar {
+  max-height: 210px;
+  max-width: 210px;
+}
+
+.modal-title {
+    padding-bottom: 5px;
+    font-size: 2.5em;
+  }
+
+  .modal-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    font-size:26px!important;
+  }
+
+
+
+/********media query********/
+
+
+/********tablet********/
+
+@media only screen and (max-width: 800px) {
+
+  /********tablet navbar*******/
+
+  nav li {
+    float: none;
+  }
+  nav li a {
+    text-align: center;
+  }
+
+  /********modal*******/
+
+  .modal-title {
+    padding-bottom: 5px;
+    font-size: 2.5em;
+  }
+
+  .modal-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 46px!important;
+  }
+}
+
+  /********mobile********/
+@media only screen and (max-width: 445px) {
+
+  /********mobile navbar*******/
+
+  nav ul {
+    margin-bottom: -22px;
+  }
+
+  nav li a {
+    padding: 0px;
+    font-size:46px;
+    margin: 0 0 0 -40px;
+  }
+
+  /********mobile info*******/
+
+  .info {
+    margin: -18px 0;
+    padding: none;
+  }
+
+  .info-title {
+    padding: 0px;
+  }
+
+  /********modal*******/
+
+  .modal-title {
+    padding-bottom: 5px;
+  }
+
+  .modal-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+
+  button {
+    width: 100%;
+    font-size: 48px!important;
+  }
+}
