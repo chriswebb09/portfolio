@@ -1,9 +1,11 @@
 /********body*******/
+
 body {
-  font-family: "Karla", sans-serif!important;
+  font-family: "Karla", sans-serif !important;
 }
 
 /********info*******/
+
 .info {
   background-color: #337ab7;
   color: #ffffff;
@@ -18,7 +20,8 @@ body {
 /********portfolio styling********/
 
 .portfolio {
-  color: #337ab7;;
+  color: #337ab7;
+  ;
 }
 
 /********main navbar styling********/
@@ -38,9 +41,8 @@ nav li a {
   padding: 10px;
   border: 2.5px solid #337ab7;
   color: #337ab7;
-  margin:15px 10px 15px 0;
+  margin: 15px 10px 15px 0;
 }
-
 
 /********img********/
 
@@ -49,25 +51,24 @@ nav li a {
   max-width: 210px;
 }
 
+/********modal********/
+
 .modal-title {
-    padding-bottom: 5px;
-    font-size: 2.5em;
-  }
+  padding-bottom: 5px;
+  font-size: 2.5em;
+}
 
-  .modal-text {
-    margin-top: 10px;
-    font-size: 16px;
-  }
+.modal-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
 
-  button {
-    width: 100%;
-    font-size:26px!important;
-  }
-
-
+button {
+  width: 100%;
+  font-size: 26px !important;
+}
 
 /********media query********/
-
 
 /********tablet********/
 
@@ -78,6 +79,7 @@ nav li a {
   nav li {
     float: none;
   }
+
   nav li a {
     text-align: center;
   }
@@ -96,11 +98,12 @@ nav li a {
 
   button {
     width: 100%;
-    font-size: 46px!important;
+    font-size: 46px !important;
   }
 }
 
-  /********mobile********/
+/********mobile********/
+
 @media only screen and (max-width: 445px) {
 
   /********mobile navbar*******/
@@ -110,8 +113,8 @@ nav li a {
   }
 
   nav li a {
-    padding: 0px;
-    font-size:46px;
+    padding: 0;
+    font-size: 46px;
     margin: 0 0 0 -40px;
   }
 
@@ -119,27 +122,30 @@ nav li a {
 
   .info {
     margin: -18px 0;
-    padding: none;
+    padding: 2px;
   }
 
   .info-title {
-    padding: 0px;
+    padding: 2px;
+  }
+
+  .img-avatar {
+    margin-top: 2px;
   }
 
   /********modal*******/
 
   .modal-title {
-    padding-bottom: 5px;
+    padding: 5px 0 5px 0;
   }
 
   .modal-text {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
   }
-
 
   button {
     width: 100%;
-    font-size: 48px!important;
+    font-size: 48px !important;
   }
 }
